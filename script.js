@@ -6,7 +6,7 @@ const textArea = document.querySelector(".cajasDeTexto__input");
 const mensaje = document.querySelector(".output");
 
 textArea.addEventListener('input', function(){
-    let textInput = textArea.value;
+    let textInpu = textArea.value;
     //Convertir a minuscula y restringir uso de caracteres especiales y tildes(acentos)
     textInput = textInput.toLowerCase().replace(/[^a-zñ\s]/g, '');
     textArea.value = textInput;
