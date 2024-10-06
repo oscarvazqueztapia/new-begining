@@ -9,7 +9,8 @@ textArea.addEventListener('input', function(){
     let textInpu = textArea.value;
     //Convertir a minuscula y restringir uso de caracteres especiales y tildes(acentos)
     textInput = textInput.toLowerCase().replace(/[^a-zñ\s]/g, '');
-    textArea.value = textInput;
+    textArea.value = textInput;textInput;
+    
 })
 
 function btnEncriptar(){
